@@ -1,5 +1,8 @@
 package com.sena.polimorfismo.src;
 
-public class Perro {
-    
+public class Perro extends Animal {
+    @Override
+    public void hacerSonido() {
+        System.out.println("El perro ladra.");
+    }
 }
